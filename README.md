@@ -1,3 +1,8 @@
+Fork basé sur https://github.com/OffchainLabs/eth-pos-devnet
+Des modifications ont été apportées afin un TP
+- Ajout ELECTRA to consensus config.yaml (correction nécéssaire)
+- Ajout de personal à http.api pour le client-go pour permettre par après la création de compte via web3.js
+
 # Ethereum Proof-of-Stake Devnet
 
 This repository provides a docker-compose file to run a fully-functional, local development network for Ethereum with proof-of-stake enabled. This configuration uses [Prysm](https://github.com/prysmaticlabs/prysm) as a consensus client and [go-ethereum](https://github.com/ethereum/go-ethereum) for execution. **It starts from proof-of-stake** and does not go through the Ethereum merge.
